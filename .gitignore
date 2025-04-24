@@ -1,0 +1,11 @@
+# Ignorar archivos de entorno
+*.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos temporales de editores
+.vscode/
+.idea/
+*.swp
