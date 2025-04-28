@@ -75,7 +75,7 @@ def siempre_ranking(update: Update, context: CallbackContext):
     participation_data = load_participation_data()
     sorted_users = sorted(participation_data.items(), key=lambda x: x[1], reverse=True)
 
-    message = "📂 Ranking Histórico (Archivo JSON):\n"
+    message = "📂 Ranking Histórico :\n"
     for i, (user_id, count) in enumerate(sorted_users, 1):
         try:
             user = context.bot.get_chat_member(update.message.chat_id, user_id).user
