@@ -26,7 +26,7 @@ def save_participation_data(data):
 user_files = load_participation_data()
 
 # ✅ Tu ID personal de Telegram (REEMPLAZA ESTE POR EL TUYO)
-MY_USER_ID = 5804784715  
+MY_USER_ID = 7688449957 
 
 # ✅ Comando /start
 def start(update: Update, context: CallbackContext):
